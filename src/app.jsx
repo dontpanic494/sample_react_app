@@ -6,12 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>Countdown to December 25, 2018</div>
+        <div className="App-title">Countdown to December 25, 2018</div>
         <div>
-          <div>Days</div>
-          <div>Hours</div>
-          <div>Minutes</div>
-          <div>Seconds</div>
+          <div className="Clock-days">Days</div>
+          <div className="Clock-hours">Hours</div>
+          <div className="Clock-minutes">Minutes</div>
+          <div className="Clock-seconds">Seconds</div>
         </div>
         <div>
           <input placeholder='new date'/>
